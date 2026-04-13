@@ -1,7 +1,7 @@
 export default function SocialProof() {
     const stats = [
         {
-            value: '50+',
+            value: '40+',
             label: 'Target age group',
             sublabel: 'Built specifically for active adults',
             icon: '👥',
@@ -25,7 +25,7 @@ export default function SocialProof() {
             icon: '⚡',
         },
     ];
-
+  
     return (
         <section className="bg-dark py-16 relative overflow-hidden">
             <div className="absolute inset-0 opacity-5"
@@ -34,7 +34,7 @@ export default function SocialProof() {
                     backgroundSize: '32px 32px',
                 }}
             />
-
+    
             <div className="relative max-w-6xl mx-auto px-6">
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
 
@@ -56,4 +56,4 @@ export default function SocialProof() {
             </div>
         </section>
     );
-  }
+}

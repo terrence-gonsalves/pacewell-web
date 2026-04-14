@@ -34,7 +34,7 @@ export default function Download() {
                     </h2>
 
                     <p className="text-xl text-white/50 mb-4 max-w-lg mx-auto leading-relaxed">
-                        Free to download. No subscription required for basic tracking.
+                        Free to download. Support us with a donation if you love it.
                     </p>
 
                     <p className="text-sm text-white/30 mb-12">
@@ -71,16 +71,16 @@ export default function Download() {
                     
                     <div className="flex flex-wrap items-center justify-center gap-8 text-white/30">
                         <div className="flex items-center gap-2 text-sm">
-                            <span>🔒</span>
-                            <span>HIPAA-conscious design</span>
-                        </div>
-                        <div className="flex items-center gap-2 text-sm">
                             <span>🛡️</span>
                             <span>Your data stays private</span>
                         </div>
                         <div className="flex items-center gap-2 text-sm">
+                            <span>🚫</span>
+                            <span>No ads. No tracking. No nonsense.</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm">
                             <span>🆓</span>
-                            <span>Free to start</span>
+                            <span>Always free to download</span>
                         </div>
                     </div>
                 </motion.div>

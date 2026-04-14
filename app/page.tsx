@@ -817,7 +817,12 @@ function Footer() {
                         </p>
 
                         {['Privacy Policy', 'Terms of Service', 'Contact Us'].map(link => (
-                        <a key={link} href="#" style={{
+                        <a key={link} href={
+                                link === 'Privacy Policy' ? '/privacy' :
+                                link === 'Terms of Service' ? '/terms' :
+                                'mailto:hello@pacewellapp.com'
+                            } 
+                            style={{
                                 display: 'block', fontFamily: fontSans, fontSize: 14,
                                 color: 'rgba(255,255,255,0.4)', textDecoration: 'none', marginBottom: 10,
                                 transition: 'color 0.2s',

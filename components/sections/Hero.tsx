@@ -147,7 +147,6 @@ export default function Hero() {
                             <div className="absolute inset-0 bg-primary-light rounded-full blur-3xl opacity-30 -z-10 scale-75" />
                         </div>
                     </motion.div>
-
                 </div>
             </div>
         </section>

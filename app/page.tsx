@@ -38,10 +38,10 @@ function Navbar() {
         <nav style={{
             position: 'fixed', top: 0, left: 0, right: 0, zIndex: 100,
             transition: 'all 0.3s ease',
-            background: scrolled ? 'rgba(255,255,255,0.97)' : 'transparent',
-            backdropFilter: scrolled ? 'blur(12px)' : 'none',
-            boxShadow: scrolled ? '0 1px 20px rgba(15,26,20,0.08)' : 'none',
-            borderBottom: scrolled ? `1px solid ${T.border}` : 'none',
+            background: scrolled ? 'rgba(255,255,255,0.97)' : 'rgba(247,248,246,0.85)',
+            backdropFilter: 'blur(12px)',
+            boxShadow: scrolled ? '0 1px 20px rgba(15,26,20,0.08)' : '0 1px 0px rgba(15,26,20,0.06)',
+            borderBottom: `1px solid ${scrolled ? T.border : 'rgba(221,232,226,0.6)'}`,
         }}>
             <div style={{
                 maxWidth: '1100px', margin: '0 auto', padding: '16px 24px',
@@ -300,7 +300,7 @@ function Hero() {
 function SocialProof() {
     const stats = [
         { value: '40+', label: 'Target age group', sub: 'Built for active adults', icon: '👥' },
-        { value: 'AI Integration', label: 'Pattern recognition', sub: 'Advanced AI analysis', icon: '🧠' },
+        { value: 'Intelligent', label: 'Pattern recognition', sub: 'Advanced AI analysis', icon: '🧠' },
         { value: '8', label: 'Daily metrics', sub: 'Sleep, mood, energy & more', icon: '📊' },
         { value: '60s', label: 'Check-in time', sub: 'Track in under a minute', icon: '⚡' },
     ];

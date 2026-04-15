@@ -342,7 +342,7 @@ function SocialProof() {
 
 const features = [
     { icon: '✅', title: 'Daily Check-in', desc: '60 seconds a day to log mood, sleep, energy and stress with an intuitive emoji-based interface.', tag: 'Core', tagColor: T.green },
-    { icon: '✨', title: 'AI Insights', desc: 'Claude AI analyses your patterns and surfaces personalised insights — trends, correlations and predictions.', tag: 'AI-Powered', tagColor: '#B45309' },
+    { icon: '✨', title: 'AI Insights', desc: 'The app analyses your patterns and surfaces personalised insights — trends, correlations and predictions.', tag: 'AI-Powered', tagColor: '#B45309' },
     { icon: '🏃', title: 'Activity Tracking', desc: 'Log workouts manually or connect your wearable through Apple Health and Google Health Connect.', tag: 'Wearables', tagColor: '#1D4ED8' },
     { icon: '🔥', title: 'Streak Tracking', desc: 'Build lasting habits with daily streak motivation. Every consecutive check-in counts.', tag: 'Habits', tagColor: '#C2410C' },
     { icon: '🔗', title: 'Recovery Patterns', desc: 'Spot correlations between sleep, stress and performance that even your doctor might miss.', tag: 'Analysis', tagColor: '#7C3AED' },
@@ -427,7 +427,7 @@ function Features() {
 const steps = [
     { n: '01', icon: '✅', title: 'Check in daily', desc: 'Log how you feel in under 60 seconds with our intuitive emoji-based flow. Mood, sleep, energy, stress and more.', detail: 'Takes less than 60 seconds' },
     { n: '02', icon: '⌚', title: 'Sync your wearable', desc: 'Connect Apple Health or Google Health Connect. Your steps, heart rate, sleep and workouts sync automatically.', detail: 'Works with 100+ devices' },
-    { n: '03', icon: '✨', title: 'Get AI insights', desc: 'Claude AI analyses your patterns across check-ins and wearable data to surface personalised insights every day.', detail: 'Insights generated daily' },
+    { n: '03', icon: '✨', title: 'Get AI insights', desc: 'The app analyses your patterns across check-ins and wearable data to surface personalised insights every day.', detail: 'Insights generated daily' },
 ];
 
 function HowItWorks() {
@@ -526,7 +526,7 @@ function HowItWorks() {
 const screens = [
     { title: 'Dashboard', desc: 'Your daily health overview at a glance', src: '/screenshots/dashboard.png' },
     { title: 'Daily Check-in', desc: 'Intuitive emoji-based logging in 60 seconds', src: '/screenshots/checkin.png' },
-    { title: 'AI Insights', desc: 'Personalised pattern analysis by Claude AI', src: '/screenshots/insight.png' },
+    { title: 'AI Insights', desc: 'Personalised pattern analysis', src: '/screenshots/insight.png' },
 ];
 
 function Showcase() {

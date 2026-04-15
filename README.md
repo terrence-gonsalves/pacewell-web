@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pacewell — Marketing Website
 
-## Getting Started
+The official marketing website for **Pacewell**, an AI-powered health recovery tracking app built for active adults 50+.
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a Next.js single-page marketing site that promotes the Pacewell mobile app. It includes information about the app's features, how it works, testimonials, and links to download on the App Store and Google Play.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `/` — Main landing page
+- `/privacy` — Privacy Policy
+- `/terms` — Terms of Service
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Framework:** Next.js 16
+- **Styling:** Tailwind CSS v4 + inline styles
+- **Animations:** Framer Motion
+- **Fonts:** Fraunces (display) + DM Sans (body) via Google Fonts
+- **Deployment:** Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## About Pacewell
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Pacewell is a mobile app that helps active adults 50+ track their health recovery through daily check-ins, wearable device integration and personalised AI insights powered by Claude AI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Legal owner:** Pacewell Ltd  
+**Country:** Canada
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Pacewell Ltd. All rights reserved.

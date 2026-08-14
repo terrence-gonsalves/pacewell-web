@@ -61,7 +61,7 @@ export default function PrivacyPolicy() {
                         Privacy Policy
                     </h1>
                     <p style={{ fontFamily: fontSans, fontSize: 15, color: 'rgba(255,255,255,0.5)' }}>
-                        Last updated: April 14, 2026
+                        Last updated: August 14, 2026
                     </p>
                 </div>
             </div>
@@ -73,120 +73,271 @@ export default function PrivacyPolicy() {
                     }}
                 >
                     <p style={{ fontSize: 15, color: T.text, lineHeight: 1.7 }}>
-                        At <strong>Pacewell Ltd</strong>, we take your privacy seriously. This Privacy Policy explains how we collect,
-                        use and protect your personal information when you use the Pacewell mobile application and website.
-                        By using Pacewell, you agree to the practices described in this policy.
+                    Pacewell Ltd (&quot;Pacewell&quot;, &quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) respects your privacy and recognizes that health and wellness information can be sensitive.
+
+                    This Privacy Policy explains what information Pacewell collects, how we use it, when information is processed by service providers, how we protect it, and the choices available to you.
+
+                    This policy applies to the Pacewell mobile application (&quot;the App&quot;) and the Pacewell website (&quot;the Website&quot;).
+
+                    Pacewell is designed as a general wellness and recovery-tracking service. It is not a medical device and does not provide medical advice, diagnosis, or treatment.
                     </p>
                 </div>
 
                 {[
                 {
                     title: '1. Who We Are',
-                    content: `Pacewell Ltd is a Canadian company and the developer and operator of the Pacewell mobile application ("the App") and website at pacewellapp.com ("the Website"). References to "we", "us" or "our" in this policy refer to Pacewell Ltd. 
-        
-                    If you have any questions about this Privacy Policy, please contact us at privacy@pacewellapp.com.`,
+                    content: `Pacewell Ltd is a Canadian company that develops and operates the Pacewell mobile application and website.
+
+                    Questions, requests, or concerns about this Privacy Policy or your personal information may be directed to:
+
+                    **Pacewell Ltd**
+                    Privacy contact: [confirm privacy email before publication]
+                    Website: getpacewell.com`,
                 },
                 {
                     title: '2. Information We Collect',
-                    content: `We collect the following categories of information when you use Pacewell:
+                    content: `We collect information that you provide directly to Pacewell and, where you choose to enable an integration, health and fitness information made available through Google Health Connect.
 
                     **Account Information**
-                    When you register, we collect your email address and any profile information you provide, including your name, age and activity level.
+                    When you create and maintain a Pacewell account, we may collect:
+
+                    - your email address;
+                    - your name;
+                    - your age;
+                    - your activity level;
+                    - your selected health and wellness goals; and
+                    - a profile image if you choose to upload one.
+
+                    Your email address is used for account authentication, account-related communications, security, and support.
 
                     **Daily Check-in Data**
-                    When you complete a daily check-in, we collect the data you enter including mood, energy, stress levels, sleep quality, sleep hours, nutrition quality, water intake and any notes you choose to add.
+                    When you complete a daily check-in, Pacewell may collect information you choose to provide about:
 
-                    **Activity Data**
-                    We collect workout logs you manually enter, including activity type, duration, perceived exertion and notes.
+                    - mood;
+                    - energy;
+                    - stress;
+                    - sleep quality;
+                    - sleep duration;
+                    - nutrition quality;
+                    - water intake; and
+                    - optional written notes.
 
-                    **Health Metrics from Wearable Devices**
-                    If you choose to connect a wearable device, we collect health data synced through Apple HealthKit (iOS) or Google Health Connect (Android), which may include step count, heart rate, sleep data, exercise sessions and body weight.
+                    Written notes are free-form. You should avoid entering information about another person or information you do not want included in your wellness data.
 
-                    **Usage Data**
-                    We may collect anonymised data about how you use the App, including features accessed and frequency of use, to improve the service.`,
+                    **Activity information**
+                    When you manually record activities, or import supported activity information, Pacewell may process information such as:
+
+                    - activity type;
+                    - date;
+                    - duration;
+                    - perceived exertion;
+                    - source of the activity; and
+                    - identifiers used to prevent duplicate imports.
+
+                    **Health Connect information**
+                    If you choose to connect Google Health Connect and grant Pacewell permission to access supported data, Pacewell may process health and fitness information such as:
+
+                    - step count;
+                    - heart-rate information, including resting, minimum, maximum, or average heart rate where available;
+                    - heart-rate variability where available;
+                    - body weight; and
+                    - exercise or workout information.
+
+                    Pacewell only receives Health Connect information for which you grant permission and that is used to provide Pacewell's user-facing health, activity, recovery, and insight features.
+
+                    You can manage or revoke Pacewell's Health Connect permissions through Android and Health Connect settings.
+
+                    Google treats information accessed through Health Connect permissions as personal and sensitive user data and requires apps to limit access to data necessary for their approved functionality.
+
+                    **Notification preferences**
+                    If you choose to enable notifications, Pacewell stores the settings required to provide reminders you select, such as daily check-in or evening insight reminders.
+
+                    Pacewell does not enable these reminders without your choice.`,
                 },
                 {
                     title: '3. How We Use Your Information',
-                    content: `We use the information we collect to:
+                    content: `We use personal information only for purposes related to providing, securing, maintaining, and improving Pacewell.
 
-                    • Provide and operate the Pacewell service
-                    • Generate personalised AI-powered health insights using your check-in and wearable data
-                    • Send you daily check-in reminders and bedtime insight notifications (only if you grant permission)
-                    • Improve and develop new features for the App
-                    • Respond to your support requests
-                    • Comply with legal obligations
+                    These purposes may include:
 
-                    We do not use your health data for advertising purposes. We do not sell your personal information to third parties.`,
+                    - creating and authenticating your account;
+                    - maintaining your profile and preferences;
+                    - storing and displaying daily check-ins;
+                    - recording and displaying activities;
+                    - importing health and fitness information you authorize through Health Connect;
+                    - calculating health, activity, and wellness trends;
+                    - generating personalized AI-supported wellness insights;
+                    - sending reminders you have chosen to enable;
+                    - providing account and security communications;
+                    - troubleshooting and maintaining the service;
+                    - responding to support or privacy requests;
+                    - preventing unauthorized access or misuse; and
+                    - meeting applicable legal obligations.
+
+                    We do **not** sell your personal information.
+
+                    We do **not** sell your health information.
+
+                    We do **not** use Health Connect data for advertising, credit decisions, employment decisions, insurance eligibility, or data-broker purposes.
+
+                    These restrictions are also consistent with Google's requirements governing Health Connect data.`,
                 },
                 {
-                    title: '4. AI-Powered Insights',
-                    content: `Pacewell uses Anthropic's Claude AI to analyse your health data and generate personalised wellness insights. When generating insights, your anonymised health data is sent to Anthropic's API for processing. Anthropic's use of this data is governed by their own privacy policy and terms of service.
+                    title: '4. AI-Generated Wellness Insights',
+                    content: `Pacewell uses Anthropic's Claude API to generate personalized wellness insights from recent Pacewell data.
 
-                    We send only the data necessary to generate your insights. We do not send personally identifiable information such as your name or email address to Anthropic.`,
+                    When an insight is generated, Pacewell may send relevant information to Anthropic for processing, including:
+
+                    - age;
+                    - activity level;
+                    - selected health goals;
+                    - daily check-in information;
+                    - activity information;
+                    - Health Connect-derived metrics; and
+                    - written check-in notes, if you have entered them.
+
+                    Pacewell does not intentionally include your email address or name in the prompt sent to Anthropic for insight generation.
+
+                    However, because check-in notes are free-form, information that you personally enter into those notes may be included when an insight is generated. You should therefore avoid entering names, contact details, or other personally identifying information in notes unless you are comfortable with that information being processed for insight generation.
+
+                    Anthropic processes this information as a service provider through its commercial API. Anthropic states that standard API inputs and outputs are automatically deleted from its backend within 30 days, subject to exceptions such as legal requirements, abuse prevention, or a different contractual retention arrangement.
+
+                    AI-generated insights may contain errors or incomplete interpretations. They are provided for general wellness purposes and are not medical advice.`,
                 },
                 {
-                    title: '5. Data Storage and Security',
-                    content: `Your data is stored securely using Supabase, a cloud database provider. Data is encrypted in transit using TLS and encrypted at rest. We implement industry-standard security measures to protect your personal information.
+                    title: '5. How We Share Information',
+                    content: `We do not sell or rent your personal information.
 
-                    Pacewell servers are located in data centres that may be outside of Canada. By using the App, you consent to the transfer of your information to these servers.
+                    We share or process information with service providers only where required to operate Pacewell.
 
-                    We retain your data for as long as your account is active. If you delete your account, your personal data will be permanently deleted from our systems within 30 days.`,
+                    Current service providers include:
+
+                    **Supabase**
+                    Used for authentication, database storage, server-side functions, and file storage such as profile images.
+
+                    **Anthropic**
+                    Used to process selected Pacewell data for AI-generated wellness insights.
+
+                    **Google Health Connect**
+                    Used on supported Android devices to allow you to authorize Pacewell to access selected health and fitness information.
+
+                    **Expo / EAS**
+                    Used as part of Pacewell's mobile application development, build, and distribution infrastructure.
+
+                    Service providers may process information in jurisdictions outside Canada. Their processing is subject to their own contractual, security, legal, and privacy obligations.
+
+                    We may also disclose information where required by applicable law, court order, regulatory requirement, or where reasonably necessary to protect Pacewell, our users, or others from fraud, security threats, or unlawful activity.`,
                 },
                 {
-                    title: '6. Health Data',
-                    content: `Pacewell handles health and wellness data with particular care. We recognise that health data is sensitive personal information.
+                    title: '6. Health and Wellness Information',
+                    content: `Pacewell treats health and wellness information as sensitive information.
 
-                    **Important:** Pacewell is not a medical device and is not intended to diagnose, treat, cure or prevent any medical condition. The insights and information provided by Pacewell are for general wellness purposes only. Always consult a qualified healthcare professional before making changes to your health or fitness routine.
+                    Access to Health Connect information is optional. You choose whether to connect Health Connect and which available permissions to grant.
 
-                    We do not share your health data with insurers, employers or any third parties without your explicit consent.`,
+                    Pacewell attempts to limit collection and use of health information to the information necessary to provide its health, activity, recovery, and insight features.
+
+                    Pacewell does not provide your health information to employers, insurers, advertisers, or data brokers for their independent use.
+
+                    Canadian privacy guidance requires organizations to limit collection to what is necessary for identified purposes, use or disclose information only for those purposes unless otherwise authorized, and apply safeguards appropriate to the sensitivity of the information.`,
                 },
                 {
-                    title: '7. Third-Party Services',
-                    content: `Pacewell uses the following third-party services which may process your data:
+                    title: '7. Data Storage and Security',
+                    content: `Pacewell uses Supabase infrastructure to store account and application data.
 
-                    • **Supabase** — database and authentication provider
-                    • **Anthropic** — AI processing for health insights
-                    • **Apple HealthKit** — health data integration on iOS (optional)
-                    • **Google Health Connect** — health data integration on Android (optional)
-                    • **Expo / EAS** — mobile app build and delivery infrastructure
+                    We use technical and organizational measures intended to protect personal information, including:
 
-                    Each of these services has their own privacy policy governing their use of data.`,
-                },
-                {
-                    title: '8. Your Rights Under Canadian Privacy Law',
-                    content: `Under Canada's Personal Information Protection and Electronic Documents Act (PIPEDA) and applicable provincial privacy legislation, you have the right to:
+                    - encrypted network connections;
+                    - authenticated access;
+                    - user-scoped database access controls;
+                    - database Row Level Security;
+                    - restricted server-side administrative credentials;
+                    - controlled storage access; and
+                    - account authorization checks for sensitive operations.
 
-                    • **Access** the personal information we hold about you
-                    • **Correct** inaccurate or incomplete information
-                    • **Withdraw consent** to the collection or use of your data
-                    • **Delete** your account and all associated personal data
-                    • **File a complaint** with the Office of the Privacy Commissioner of Canada if you believe your privacy rights have been violated
+                    No internet-connected system can guarantee absolute security. We therefore cannot guarantee that unauthorized access, loss, alteration, or disclosure will never occur.
 
-                    To exercise any of these rights, please contact us at privacy@pacewellapp.com. We will respond to your request within 30 days.`,
+                    If we become aware of a privacy or security incident, we will respond in accordance with applicable legal requirements.`,
                 },
                 {
-                    title: '9. Children\'s Privacy',
-                    content: `Pacewell is designed for adults aged 18 and over. We do not knowingly collect personal information from individuals under 18. If we become aware that a child under 18 has provided us with personal information, we will delete it immediately.`,
+                    title: '8. International Processing',
+                    content: `Some Pacewell service providers may process or store information outside Canada.
+
+                    When personal information is processed in another country, it may be subject to that country's laws and may be accessible to courts, law-enforcement agencies, or governmental authorities in accordance with those laws.
+
+                    We use service providers for the purposes described in this policy and seek to limit the information provided to what is reasonably necessary for those purposes.`,
                 },
                 {
-                    title: '10. Marketing Communications',
-                    content: `We will only send you marketing communications if you have explicitly opted in to receive them. You can withdraw your consent at any time by updating your preferences in the App or by contacting us at privacy@pacewellapp.com.`,
+                    title: '9. Data Retention and Account Deletion',
+                    content: `Pacewell retains information while your account remains active and for as long as reasonably necessary to provide the service, fulfil the purposes described in this Privacy Policy, meet legal obligations, resolve disputes, or protect the security and integrity of the service.
+
+                    You may delete your Pacewell account through the App.
+
+                    When account deletion succeeds, Pacewell deletes your authentication account and associated active application records, including information associated with your profile, check-ins, activities, AI insights, and stored health metrics. A stored Pacewell profile image associated with the account is also removed from Pacewell's active storage.
+
+                    Deletion from Pacewell does not necessarily cause information already processed by an independent infrastructure or service provider to disappear from that provider's systems immediately. Limited residual information may temporarily remain in backups, logs, fraud-prevention systems, legal records, or service-provider systems where retention is required for security, legal, or operational purposes.
+
+                    For example, Anthropic currently states that standard commercial API inputs and outputs are normally deleted from its backend within 30 days, subject to stated exceptions.
+
+                    The current Pacewell account-deletion implementation verifies the authenticated user, removes the associated avatar object where present, and deletes the Supabase authentication user, which triggers deletion of associated database records.`,
                 },
                 {
-                    title: '11. Changes to This Policy',
-                    content: `We may update this Privacy Policy from time to time. We will notify you of any material changes by sending a notification through the App or by email. Your continued use of Pacewell after the effective date of any changes constitutes your acceptance of the updated policy.`,
+                    title: '10. Your Privacy Choices and Rights',
+                    content: `Depending on the privacy law applicable to your relationship with Pacewell, you may have rights relating to your personal information, including the ability to:
+
+                    - request access to personal information Pacewell holds about you;
+                    - request correction of inaccurate or incomplete information;
+                    - withdraw consent where processing is based on consent, subject to legal or contractual limitations;
+                    - change or revoke Health Connect permissions;
+                    - disable notifications;
+                    - request information about how your personal information has been used or disclosed;
+                    - delete your Pacewell account; and
+                    - raise a concern about Pacewell's handling of your personal information.
+
+                    The Office of the Privacy Commissioner of Canada identifies access, correction, openness, safeguards, consent, and the ability to challenge an organization's compliance among the core principles of PIPEDA.
+
+                    To make a privacy request, contact us using the information in Section 1.
+
+                    You may also contact the Office of the Privacy Commissioner of Canada if you believe your privacy rights have not been respected.`,
                 },
                 {
-                    title: '12. Contact Us',
-                    content: `If you have any questions, concerns or requests regarding this Privacy Policy, please contact us:
+                    title: '11. Children\'s Privacy',
+                    content: `Pacewell is intended for adults aged **18 and older**.
+
+                    We do not knowingly offer Pacewell to children or knowingly collect personal information from individuals under 18.
+
+                    If we learn that information belonging to a person under 18 has been collected contrary to this policy, we will take reasonable steps to delete it.`,
+                },
+                {
+                    title: '12. Medical and Wellness Disclaimer',
+                    content: `Pacewell is a general wellness and fitness application.
+
+                    Pacewell is **not a medical device** and is not intended to diagnose, treat, cure, prevent, or monitor a disease or medical condition.
+
+                    AI-generated insights, trends, scores, observations, reminders, and other information provided by Pacewell are for general wellness and informational purposes only.
+
+                    They are not a substitute for advice, diagnosis, or treatment from a qualified healthcare professional.
+
+                    Do not delay seeking professional medical care because of information provided by Pacewell.`,
+                },
+                {
+                    title: '13. Changes to This Privacy Policy',
+                    content: `We may update this Privacy Policy as Pacewell evolves, our service providers change, or applicable legal and regulatory requirements change.
+
+                    When we make material changes, we may notify users through the App, by email, or through another appropriate method.
+
+                    The "Last updated" date at the top of this policy identifies the most recent revision.
+
+                    Where required by law, we will request consent before using personal information for a materially different purpose.`,
+                },
+                {
+                    title: '14. Contact Us',
+                    content: `For questions, access requests, correction requests, deletion questions, or other privacy concerns, contact:
 
                     **Pacewell Ltd**
-                    Email: privacy@pacewellapp.com
-                    Website: pacewellapp.com
+                    Privacy contact: privacy@getpacewell.com
+                    Website: getpacewell.com
 
-                    You also have the right to contact the Office of the Privacy Commissioner of Canada:
-                    Website: priv.gc.ca
-                    Phone: 1-800-282-1376`,
+                    You may also obtain information about Canadian privacy rights from the **Office of the Privacy Commissioner of Canada**.`,
                 },
                 ].map((section, i) => (
                 <div key={i} style={{ marginBottom: 48 }}>

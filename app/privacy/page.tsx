@@ -371,7 +371,7 @@ export default function PrivacyPolicy() {
                                         }}
                                     >
                                         {isBullet && (
-                                            <span style={{position: 'absolute', left: 0}}>•</span>
+                                            <span style={{position: 'absolute', left: 5}}>•</span>
                                         )}
 
                                         {parts.map((part, l) =>

@@ -220,17 +220,30 @@ export default function TermsOfService() {
                         <p key={j} style={{ marginBottom: 16 }}>
 
                             {paragraph.split('\n').map((line, k) => {
-                                const parts = line.split(/(\*\*[^*]+\*\*)/g);
+                                const trimmedLine = line.trim();
+                                const isBullet = trimmedLine.startsWith('- ');
+                                const displayLine = isBullet ? trimmedLine.slice(2) : trimmedLine;
+                                const parts = displayLine.split(/(\*\*[^*]+\*\*)/g);
 
                                 return (
-                                    <span key={k}>
+                                    <span
+                                        key={k}
+                                        style={{
+                                            display: 'block',
+                                            position: 'relative',
+                                            paddingLeft: isBullet ? 20 : 0,
+                                            marginBottom: isBullet ? 6 : 0,
+                                        }}
+                                    >
+                                        {isBullet && (
+                                            <span style={{position: 'absolute', left: 5}}>•</span>
+                                        )}
+
                                         {parts.map((part, l) =>
                                             part.startsWith('**') && part.endsWith('**')
                                                 ? <strong key={l} style={{ color: T.dark, fontWeight: 600 }}>{part.slice(2, -2)}</strong>
                                                 : <span key={l}>{part}</span>
-                                            )
-                                        }
-                                        {k < paragraph.split('\n').length - 1 && <br />}
+                                        )}
                                     </span>
                                 );
                             })}

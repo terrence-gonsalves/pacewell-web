@@ -820,7 +820,7 @@ function Footer() {
                         <a key={link} href={
                                 link === 'Privacy Policy' ? '/privacy' :
                                 link === 'Terms of Service' ? '/terms' :
-                                'mailto:hello@pacewellapp.com'
+                                'mailto:hello@getpacewell.com'
                             } 
                             style={{
                                 display: 'block', fontFamily: fontSans, fontSize: 14,

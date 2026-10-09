@@ -7,8 +7,8 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen bg-background flex items-center overflow-hidden pt-20">
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-20 right-0 w-[600px] h-[600px] bg-primary-light rounded-full opacity-40 blur-3xl translate-x-1/3" />
-                <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary-light rounded-full opacity-30 blur-3xl -translate-x-1/2" />
+                <div className="absolute top-20 right-0 w-150 h-150 bg-primary-light rounded-full opacity-40 blur-3xl translate-x-1/3" />
+                <div className="absolute bottom-0 left-0 w-100 h-100 bg-primary-light rounded-full opacity-30 blur-3xl -translate-x-1/2" />
                 <div className="absolute inset-0 opacity-[0.02]"
                     style={{
                         backgroundImage: 'linear-gradient(#2E7D52 1px, transparent 1px), linear-gradient(90deg, #2E7D52 1px, transparent 1px)',
@@ -68,6 +68,7 @@ export default function Hero() {
                             </a>
                         </div>
                         
+                        {/*
                         <div className="flex items-center gap-4">
                             <div className="flex -space-x-2">
 
@@ -88,6 +89,7 @@ export default function Hero() {
                                 <p className="text-xs text-subtle">Loved by active adults 40+</p>
                             </div>
                         </div>
+                        */}
                     </motion.div>
                     
                     <motion.div
@@ -101,7 +103,7 @@ export default function Hero() {
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
                                 transition={{ delay: 0.8, duration: 0.5 }}
-                                className="absolute -left-12 top-24 bg-white rounded-2xl shadow-lg border border-border p-3 z-20 max-w-[160px]"
+                                className="absolute -left-12 top-24 bg-white rounded-2xl shadow-lg border border-border p-3 z-20 max-w-40"
                             >
                                 <div className="flex items-center gap-2 mb-1">
                                     <span className="text-base">⚡</span>
@@ -122,7 +124,7 @@ export default function Hero() {
                             
                             <div className="animate-float">
                                 <div
-                                    className="relative bg-dark rounded-[44px] shadow-lg overflow-hidden"
+                                    className="relative bg-dark rounded-5x1 shadow-lg overflow-hidden"
                                     style={{
                                         width: '280px',
                                         height: '580px',
@@ -131,7 +133,7 @@ export default function Hero() {
                                 >
                                     <div className="absolute top-3 left-1/2 -translate-x-1/2 w-20 h-5 bg-dark rounded-full z-10" />
                                     
-                                    <div className="absolute inset-[3px] rounded-[41px] overflow-hidden bg-background">
+                                    <div className="absolute inset-0.75 rounded-[41px] overflow-hidden bg-background">
                                         <Image
                                             src="/screenshots/dashboard.png"
                                             alt="Pacewell Dashboard"

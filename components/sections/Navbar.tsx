@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import Image from "next/image";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -24,11 +25,13 @@ export default function Navbar() {
         >
             <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
                 <a href="#" className="flex items-center gap-2.5 group">
-                    <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center shadow-green transition-transform group-hover:scale-105">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                            <path d="M13 2L4.5 13.5H12L11 22L19.5 10.5H12L13 2Z" fill="white" strokeLinejoin="round"/>
-                        </svg>
-                    </div>
+                    <Image
+                        src="/images/icon.png"
+                        alt=""
+                        width={36}
+                        height={36}
+                        className="w-9 h-9 rounded-xl shadow-green transition-transform group-hover:scale-105"
+                    />
                     <span className="font-display text-xl font-semibold text-dark tracking-tight">Pacewell</span>
                 </a>
 

@@ -62,7 +62,7 @@ function Navbar() {
                 
                 <div style={{ display: 'flex', gap: 32, alignItems: 'center' }} className="hide-mobile">
                 
-                    {[['Features', '#features'], ['How It Works', '#how-it-works'], ['Reviews', '#testimonials']].map(([label, href]) => (
+                    {[['Features', '#features'], ['How It Works', '#how-it-works'], ['Showcase', '#showcase']].map(([label, href]) => (
                     <a key={label} href={href} style={{
                             fontFamily: fontSans, fontSize: 14, fontWeight: 500,
                             color: T.subtle, textDecoration: 'none', transition: 'color 0.2s',
@@ -533,7 +533,7 @@ const screens = [
 
 function Showcase() {
     return (
-        <section style={{ background: T.bg, padding: '100px 24px 120px', position: 'relative', overflow: 'hidden' }}>
+        <section id="showcase" style={{ background: T.bg, padding: '100px 24px 120px', position: 'relative', overflow: 'hidden' }}>
             <div style={{ maxWidth: 1100, margin: '0 auto' }}>
                 <div style={{ textAlign: 'center', marginBottom: 72 }}>
                     <div style={{

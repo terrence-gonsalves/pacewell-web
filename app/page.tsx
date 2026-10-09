@@ -798,14 +798,13 @@ function Footer() {
                 <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr', gap: 40, marginBottom: 48 }} className="footer-grid">
                     <div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: 16 }}>
-                            <div style={{
-                                    width: 36, height: 36, borderRadius: 10, background: T.green,
-                                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                    boxShadow: '0 4px 12px rgba(46,125,82,0.3)',
-                                }}
-                            >
-                                <span style={{ color: 'white', fontSize: 16 }}>⚡</span>
-                            </div>
+                            <Image
+                                src="/images/icon.png"
+                                alt=""
+                                width={36}
+                                height={36}
+                                className="w-9 h-9 rounded-xl shadow-green transition-transform group-hover:scale-105"
+                            />
                             <span style={{ fontFamily: fontDisplay, fontSize: 20, fontWeight: 700, color: 'white', letterSpacing: '-0.02em' }}>
                                 Pacewell
                             </span>

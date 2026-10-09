@@ -48,13 +48,13 @@ function Navbar() {
                 display: 'flex', alignItems: 'center', justifyContent: 'space-between',
             }}>
                 <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
-                    <div style={{
-                        width: 36, height: 36, borderRadius: 10, background: T.green,
-                        display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        boxShadow: '0 4px 12px rgba(46,125,82,0.3)',
-                    }}>
-                        <span style={{ color: 'white', fontSize: 18 }}>⚡</span>
-                    </div>
+                    <Image
+                        src="/images/icon.png"
+                        alt=""
+                        width={36}
+                        height={36}
+                        className="w-9 h-9 rounded-xl shadow-green transition-transform group-hover:scale-105"
+                    />
                     <span style={{ fontFamily: fontDisplay, fontSize: 20, fontWeight: 700, color: T.dark, letterSpacing: '-0.02em' }}>
                         Pacewell
                     </span>

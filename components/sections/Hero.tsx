@@ -7,8 +7,8 @@ export default function Hero() {
     return (
         <section className="relative min-h-screen bg-background flex items-center overflow-hidden pt-20">
             <div className="absolute inset-0 pointer-events-none">
-                <div className="absolute top-20 right-0 w-[600px] h-[600px] bg-primary-light rounded-full opacity-40 blur-3xl translate-x-1/3" />
-                <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-primary-light rounded-full opacity-30 blur-3xl -translate-x-1/2" />
+                <div className="absolute top-20 right-0 w-150 h-150 bg-primary-light rounded-full opacity-40 blur-3xl translate-x-1/3" />
+                <div className="absolute bottom-0 left-0 w-100 h-100 bg-primary-light rounded-full opacity-30 blur-3xl -translate-x-1/2" />
                 <div className="absolute inset-0 opacity-[0.02]"
                     style={{
                         backgroundImage: 'linear-gradient(#2E7D52 1px, transparent 1px), linear-gradient(90deg, #2E7D52 1px, transparent 1px)',
@@ -68,6 +68,7 @@ export default function Hero() {
                             </a>
                         </div>
                         
+                        {/*
                         <div className="flex items-center gap-4">
                             <div className="flex -space-x-2">
 
@@ -88,6 +89,7 @@ export default function Hero() {
                                 <p className="text-xs text-subtle">Loved by active adults 40+</p>
                             </div>
                         </div>
+                        */}
                     </motion.div>
                     
                     <motion.div

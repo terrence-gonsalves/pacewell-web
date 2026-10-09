@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
     title: 'Pacewell — AI Recovery Tracking for Active Adults 40+',
-    description: 'Daily check-ins, personalised AI insights and pattern recognition that helps you stay ahead of injury. Built for active adults 50+.',
+    description: 'Daily check-ins, personalised AI insights and pattern recognition that helps you stay ahead of injury. Built for active adults 40+.',
     keywords: 'recovery tracking, wellness app, active adults, AI health insights, injury prevention',
     openGraph: {
         title: 'Pacewell — AI Recovery Tracking for Active Adults 40+',

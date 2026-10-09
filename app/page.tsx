@@ -559,7 +559,7 @@ function Showcase() {
                 </div>
 
                 <div style={{
-                        display: 'flex', justifyContent: 'center', alignItems: 'flex-end',
+                        display: 'flex', justifyContent: 'center', alignItems: 'flex-start',
                         gap: 32, flexWrap: 'wrap',
                     }}
                 >
@@ -608,12 +608,13 @@ function Showcase() {
 
 // ─── Testimonials ─────────────────────────────────────────────────────────────
 
-const testimonials = [
+/* const testimonials = [
     { quote: 'Pacewell helped me spot that my energy crashes every time I skip my morning walk. That single insight changed my whole week.', highlight: 'That single insight changed my whole week.', name: 'David M', age: 58, activity: 'Cyclist', initial: 'D' },
     { quote: "I've tried every fitness app out there. This is the first one that actually understands recovery, not just workouts.", highlight: 'Actually understands recovery.', name: 'Susan K', age: 62, activity: 'Swimmer', initial: 'S' },
     { quote: 'The AI caught a fatigue pattern building for two weeks before I felt it. I avoided what would have been a bad injury.', highlight: 'I avoided what would have been a bad injury.', name: 'Robert T', age: 55, activity: 'Runner', initial: 'R' },
-];
+]; */
 
+/*
 function Testimonials() {
     return (
         <section id="testimonials" style={{ background: 'white', padding: '100px 24px', position: 'relative', overflow: 'hidden' }}>
@@ -700,6 +701,7 @@ function Testimonials() {
         </section>
     );
 }
+*/
 
 // ─── Download ─────────────────────────────────────────────────────────────────
 

@@ -917,7 +917,6 @@ export default function Home() {
                 <Features />
                 <HowItWorks />
                 <Showcase />
-                <Testimonials />
                 <Download />
                 <Footer />
             </main>

@@ -220,6 +220,7 @@ function Hero() {
                     </a>
                 </div>
 
+                {/*
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                     <div style={{ display: 'flex' }}>
                     
@@ -240,6 +241,7 @@ function Hero() {
                         <div style={{ fontFamily: fontSans, fontSize: 12, color: T.subtle }}>Loved by active adults 40+</div>
                     </div>
                 </div>
+                */}
             </div>
             
             <div style={{ display: 'flex', justifyContent: 'center', position: 'relative' }}>

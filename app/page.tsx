@@ -48,13 +48,13 @@ function Navbar() {
                 display: 'flex', alignItems: 'center', justifyContent: 'space-between',
             }}>
                 <a href="#" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
-                    <div style={{
-                        width: 36, height: 36, borderRadius: 10, background: T.green,
-                        display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        boxShadow: '0 4px 12px rgba(46,125,82,0.3)',
-                    }}>
-                        <span style={{ color: 'white', fontSize: 18 }}>⚡</span>
-                    </div>
+                    <Image
+                        src="/images/icon.png"
+                        alt=""
+                        width={36}
+                        height={36}
+                        className="w-9 h-9 rounded-xl shadow-green transition-transform group-hover:scale-105"
+                    />
                     <span style={{ fontFamily: fontDisplay, fontSize: 20, fontWeight: 700, color: T.dark, letterSpacing: '-0.02em' }}>
                         Pacewell
                     </span>
@@ -220,6 +220,7 @@ function Hero() {
                     </a>
                 </div>
 
+                {/*
                 <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                     <div style={{ display: 'flex' }}>
                     
@@ -240,6 +241,7 @@ function Hero() {
                         <div style={{ fontFamily: fontSans, fontSize: 12, color: T.subtle }}>Loved by active adults 40+</div>
                     </div>
                 </div>
+                */}
             </div>
             
             <div style={{ display: 'flex', justifyContent: 'center', position: 'relative' }}>
@@ -557,7 +559,7 @@ function Showcase() {
                 </div>
 
                 <div style={{
-                        display: 'flex', justifyContent: 'center', alignItems: 'flex-end',
+                        display: 'flex', justifyContent: 'center', alignItems: 'flex-start',
                         gap: 32, flexWrap: 'wrap',
                     }}
                 >
@@ -606,12 +608,13 @@ function Showcase() {
 
 // ─── Testimonials ─────────────────────────────────────────────────────────────
 
-const testimonials = [
+/* const testimonials = [
     { quote: 'Pacewell helped me spot that my energy crashes every time I skip my morning walk. That single insight changed my whole week.', highlight: 'That single insight changed my whole week.', name: 'David M', age: 58, activity: 'Cyclist', initial: 'D' },
     { quote: "I've tried every fitness app out there. This is the first one that actually understands recovery, not just workouts.", highlight: 'Actually understands recovery.', name: 'Susan K', age: 62, activity: 'Swimmer', initial: 'S' },
     { quote: 'The AI caught a fatigue pattern building for two weeks before I felt it. I avoided what would have been a bad injury.', highlight: 'I avoided what would have been a bad injury.', name: 'Robert T', age: 55, activity: 'Runner', initial: 'R' },
-];
+]; */
 
+/*
 function Testimonials() {
     return (
         <section id="testimonials" style={{ background: 'white', padding: '100px 24px', position: 'relative', overflow: 'hidden' }}>
@@ -698,6 +701,7 @@ function Testimonials() {
         </section>
     );
 }
+*/
 
 // ─── Download ─────────────────────────────────────────────────────────────────
 
@@ -915,7 +919,6 @@ export default function Home() {
                 <Features />
                 <HowItWorks />
                 <Showcase />
-                <Testimonials />
                 <Download />
                 <Footer />
             </main>

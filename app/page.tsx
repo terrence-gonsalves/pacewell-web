@@ -567,7 +567,6 @@ function Showcase() {
                     {screens.map((screen, i) => (
                     <div key={i} style={{
                             display: 'flex', flexDirection: 'column', alignItems: 'center',
-                            marginTop: 48,
                         }}
                     >
                         <div style={{
